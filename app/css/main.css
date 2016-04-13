@@ -17,3 +17,9 @@ tfoot {color:red;}
 table, th, td {
     border: 1px solid black;
 }
+.vm-content {
+    background: #eeeeb7;
+    border: solid 1px green;
+    border-radius: 10px;
+    padding: 10px;
+}

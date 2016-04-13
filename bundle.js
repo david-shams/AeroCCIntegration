@@ -37839,7 +37839,7 @@
 
 
 	// module
-	exports.push([module.id, ".parent {\n    background: #abeea5;\n    border: solid 1px green;\n    border-radius: 10px;\n    padding: 10px;\n}\n.child {\n    background: lightyellow;\n    border: solid 1px rosybrown;\n    border-radius: 10px;\n    padding: 10px;\n}\nthead {color:green;}\ntbody {color:blue;}\ntfoot {color:red;}\n\ntable, th, td {\n    border: 1px solid black;\n}\n", ""]);
+	exports.push([module.id, ".parent {\n    background: #abeea5;\n    border: solid 1px green;\n    border-radius: 10px;\n    padding: 10px;\n}\n.child {\n    background: lightyellow;\n    border: solid 1px rosybrown;\n    border-radius: 10px;\n    padding: 10px;\n}\nthead {color:green;}\ntbody {color:blue;}\ntfoot {color:red;}\n\ntable, th, td {\n    border: 1px solid black;\n}\n.vm-content {\n    background: #eeeeb7;\n    border: solid 1px green;\n    border-radius: 10px;\n    padding: 10px;\n}\n", ""]);
 
 	// exports
 
