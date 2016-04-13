@@ -1,0 +1,32 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "automation test running minification lint uglification",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.5.3",
+    "angular-route": "^1.5.3",
+    "knockout": "^3.4.0",
+    "webpack": "^1.12.14"
+  },
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "ng-annotate-webpack-plugin": "^0.1.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.12.14"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/webpack --content-base app"
+  },
+  "keywords": [
+    "automation",
+    "webpack",
+    "grunt",
+    "gulp",
+    "jasmine",
+    "karma"
+  ],
+  "author": "David Shams",
+  "license": "ISC"
+}

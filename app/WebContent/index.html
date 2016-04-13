@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <title>KnockoutTest</title>
+    <link rel="stylesheet" href="resources/app.css">
+    <script data-main="appInit.js" src="lib/require.js"></script>
+</head>
+<body>
+<div id="ko-content">
+    This is<span data-bind="text: ' '+applicationName()"></span>
+    <div>
+    </div>
+    <div data-bind="template: {name: 'view1', data: $data.view1}"></div>
+</div>
+<!--angular-->
+<div ng-controller="ExampleController">
+    <select ng-model="template" ng-options="t.name for t in templates">
+        <option value="">(blank)</option>
+    </select>
+    url of the template: <code>{{template.url}}</code>
+    <hr/>
+    <div class="slide-animate-container">
+        <div class="slide-animate" ng-include="template.url"></div>
+    </div>
+</div>
+<!--end angular-->
+</body>
+</html>

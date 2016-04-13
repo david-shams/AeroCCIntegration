@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body ng-app="myApp">
+
+<ul class="menu">
+    <li><a href="#/shopping">SHOPING</a></li>
+    <li><a href="#/reshopping">RESHOPING</a></li>
+</ul>
+
+<div ng-view></div>
+
+<div>
+<!--This is cool! Where is angular.js script?-->
+    <table>
+        <thead>
+            <tr ng-repeat='element in ["David", "Bob", "Shiva"]'{{element}}>
+                <td>{{$index}}: {{element}}</td>
+            </tr>
+        </thead>
+    </table>
+    {{2+2}}
+</div>
+
+
+
+<script src="../bundle.js"></script>
+</body>
+</html>

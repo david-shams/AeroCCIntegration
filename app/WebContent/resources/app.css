@@ -1,0 +1,14 @@
+@CHARSET "ISO-8859-1";
+#ko-content{
+	margin: auto;
+	margin-top: 200px;
+	height: 400px;
+	width: 500px;
+	background: powderblue;
+	text-align: center;
+	font-weight: bold;
+	
+}
+.vm-content{
+	margin-top: 100px;
+}

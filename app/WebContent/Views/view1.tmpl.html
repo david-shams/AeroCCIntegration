@@ -1,0 +1,12 @@
+<div class="vm-content">
+	<ht>view1.tmpl.html</ht>
+	I am <span data-bind="text: name"></span>
+	<div>
+		<a href="#" data-bind="click: callViewModel2">
+			Toggle view model 2
+		</a>
+	</div>
+</div>
+<!-- ko if: vm2Visible -->
+	<div data-bind="template: {name: 'view2', data: $data.view2}"></div>
+<!-- /ko -->
