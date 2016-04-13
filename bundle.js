@@ -54,19 +54,14 @@
 	__webpack_require__(3);
 	__webpack_require__(5);
 	__webpack_require__(6);
-	// require('./shopping/shopping.html');
 	__webpack_require__(7);
-	// require('./reshopping/reshopping.html');
 	var ko = __webpack_require__(8);
 
 
-	document.write("The power of require: " + __webpack_require__(11) );
+	document.write("<h3 class='imphasis'>The power of require: " + __webpack_require__(11) + "</h3>" );
 
-	//require('!style!css!css/main.css');//todo: again this will not work. Add current directory ./
-	//require('css/main.css');//todo: again this will not work. Add current directory ./
-	__webpack_require__(12);//where bundle.js file is located todo: in relation to this
-	document.write('webpack works!');
-	//document.write(require('content.js'));//todo: this will not work even if both in the same directory
+	__webpack_require__(12);
+	document.write("<span class='works'>webpack works!</span><hr>");
 	document.write(__webpack_require__(16));
 
 /***/ },
@@ -37839,7 +37834,7 @@
 
 
 	// module
-	exports.push([module.id, ".parent {\n    background: #abeea5;\n    border: solid 1px green;\n    border-radius: 10px;\n    padding: 10px;\n}\n.child {\n    background: lightyellow;\n    border: solid 1px rosybrown;\n    border-radius: 10px;\n    padding: 10px;\n}\nthead {color:green;}\ntbody {color:blue;}\ntfoot {color:red;}\n\ntable, th, td {\n    border: 1px solid black;\n}\n.vm-content {\n    background: #eeeeb7;\n    border: solid 1px green;\n    border-radius: 10px;\n    padding: 10px;\n}\n", ""]);
+	exports.push([module.id, ".parent {\n    background: #abeea5;\n    border: solid 1px green;\n    border-radius: 10px;\n    padding: 10px;\n}\n.child {\n    background: lightyellow;\n    border: solid 1px rosybrown;\n    border-radius: 10px;\n    padding: 10px;\n}\n.shopping {\n    background: #abeea5;\n    border: solid 1px green;\n    border-radius: 10px;\n    padding: 10px;\n}\nthead {color:green;}\ntbody {color:blue;}\ntfoot {color:red;}\n\ntable, th, td {\n    border: 1px solid black;\n}\n.vm-content {\n    background: #eeeeb7;\n    border: solid 1px green;\n    border-radius: 10px;\n    padding: 10px;\n}\n.imphasis {\n    background: #eee3ac;\n    color: darkred;\n}\n.works {\n    background: #e7eeb9;\n    color: green;\n}", ""]);
 
 	// exports
 

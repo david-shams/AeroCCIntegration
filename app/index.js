@@ -8,17 +8,12 @@ console.log(ngModule);
 require('angular-route');
 require('./app');
 require('./shopping/shopping');
-// require('./shopping/shopping.html');
 require('./reshopping/reshopping');
-// require('./reshopping/reshopping.html');
 var ko = require("knockout");
 
 
-document.write("The power of require: " + require('./scripts') );
+document.write("<h3 class='imphasis'>The power of require: " + require('./scripts') + "</h3>" );
 
-//require('!style!css!css/main.css');//todo: again this will not work. Add current directory ./
-//require('css/main.css');//todo: again this will not work. Add current directory ./
-require('../app/css/main.css');//where bundle.js file is located todo: in relation to this
-document.write('webpack works!');
-//document.write(require('content.js'));//todo: this will not work even if both in the same directory
+require('../app/css/main.css');
+document.write("<span class='works'>webpack works!</span><hr>");
 document.write(require('./content.js'));

@@ -10,6 +10,12 @@
     border-radius: 10px;
     padding: 10px;
 }
+.shopping {
+    background: #abeea5;
+    border: solid 1px green;
+    border-radius: 10px;
+    padding: 10px;
+}
 thead {color:green;}
 tbody {color:blue;}
 tfoot {color:red;}
@@ -22,4 +28,12 @@ table, th, td {
     border: solid 1px green;
     border-radius: 10px;
     padding: 10px;
+}
+.imphasis {
+    background: #eee3ac;
+    color: darkred;
+}
+.works {
+    background: #e7eeb9;
+    color: green;
 }
